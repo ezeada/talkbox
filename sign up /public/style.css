@@ -1,0 +1,167 @@
+/* Style the form */
+#regForm {
+    margin: auto;
+    padding: 40px;
+    width: 70%;
+    font-family: Arial;
+  }
+  
+  /* Style the input fields */
+  input{
+    font-size: 19px;
+    font-family: Arial;
+    border: 1px solid #aaaaaa;
+    filter: drop-shadow(5px 5px 1px rgba(224, 112, 112, 0.608));
+  }
+
+  input[type="text"] {
+    border-radius: 50px;
+    padding: 5px;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+  }
+
+  input[type="tel"] {
+    border-radius: 50px;
+    padding: 5px;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+  }
+
+  input[type="file"] {
+   width: 100%;
+   margin-bottom: 10px;
+  }
+  
+  /* Mark input boxes that gets an error on validation: */
+  input.invalid {
+    background-color: #ffdddd;
+  }
+  
+  /* Hide all steps by default: */
+  .tab {
+    margin-top: 4%;
+    display: none;
+    flex-basis: 100%;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial;
+  }
+  
+  /* Make circles that indicate the steps of the form: */
+  .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(224, 112, 112);
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.3;
+  }
+  
+  /* Mark the active step: */
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: rgb(213, 121, 0);
+  }
+
+  h1 {
+  text-align: center;
+  font-family: 'Lobster';
+  font-size: 47px;
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: -1%;
+    margin-bottom: 5%;
+    font-family: Arial;
+  }
+
+  html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: white;
+    /* linear-gradient(to bottom right, rgba(255, 192, 203, 0.394), rgb(248, 182, 97, 0.394)); */
+  }
+
+  h {
+    text-align: center;
+    font-size: 22px;
+    margin-left: 15px;
+    font-family: Arial;
+  }
+
+  button {
+    margin-top: 20px;
+    margin: auto;
+    background-image: linear-gradient(135deg, #f34079ce 40%, #fc8a4dc2);
+    border-radius: 50px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    border: none;
+    font-family: Arial;
+    font-size: 18px;
+    text-align:center
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+
+  
+  input[type="radio"] {
+    margin-top: -5px;
+    vertical-align: middle;
+    border: 0px;
+    width: 30px;
+    height: 30px;
+  }
+
+  input[type="checkbox"] {
+    margin-top: -5px;
+    vertical-align: middle;
+    border: 0px;
+    width: 30px;
+    height: 30px;
+  }
+
+  fieldset {
+    display: inline-grid;
+    line-height: 1;
+    text-align: left;
+    border: none;
+    white-space:nowrap;
+  }
+
+  label {
+    align-items: center;
+    margin-top: 5px;
+    font-family: Arial;
+  }
+
+  #title{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-top: -10px;
+  }
+
+  .input {
+    margin-left: auto;
+  }
